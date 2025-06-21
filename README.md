@@ -5,31 +5,19 @@ This project presents a deep learning pipeline to classify handwritten alphabeti
 * `Training.ipynb` – Contains the complete model architecture, data processing pipeline, training routines, and model saving logic.
 * `Testing.ipynb` – Loads the trained model and evaluates its performance on test data, with visualizations like confusion matrices and class-level accuracy.
 
-## 🧠 Model Architecture
+## Model Architecture
 
 * Built using PyTorch
 * Residual blocks to combat vanishing gradients and enable deeper learning
 * Batch normalization and dropout for better generalization
 * Adaptive average pooling and fully connected output layer
 
-## 🧪 Dataset
+## Dataset
 
 * CSV-based dataset with pixel values and corresponding character labels
-* Preprocessing includes grayscale conversion, normalization, and augmentation (if applied)
+* Preprocessing includes grayscale conversion, normalization
 
-## 🚀 How to Run
-
-1. Install the required dependencies:
-
-   ```bash
-   pip install torch torchvision matplotlib pandas seaborn torchsummary torchviz pillow
-   ```
-
-2. Open and run `Training.ipynb` to train and save the model.
-
-3. Run `Testing.ipynb` to evaluate the model and view performance metrics.
-
-## 📊 Metrics & Visualization
+## Metrics & Visualization
 
 * Confusion Matrix
 * Per-class accuracy
